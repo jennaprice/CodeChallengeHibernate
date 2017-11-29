@@ -1,0 +1,87 @@
+  		* {
+    			//text-shadow: 1px 1px 0 #000;
+    			font-family: Ubuntu, sans-serif;
+  		}
+      section {
+        display: flex;
+        justify-content: center;
+      }
+  		.container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 5px;
+          padding: 10px;
+         
+
+  		}
+  		#login {
+  		 max-width: 200px;
+  		 border: 2px gray solid;
+  		}
+  		a {
+    			text-decoration: none;
+  		}
+
+  		a:hover {
+    			text-decoration: underline;
+  		}
+  		p {
+  			text-align: center;
+
+  		}
+      label{
+        text-align: center;
+        padding: 5px;
+      }
+      img {
+        border-radius: 5px;
+        display: flex;
+        max-height: 10vh;
+      }
+      h2 {
+        text-align: center;
+      }
+
+      input[type="submit"]{
+        font-size: 14px;
+        color:black;
+        background-color: rgb(200, 226, 245);
+        border-radius: 5px;
+
+      }
+      #message {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f1f1f1;
+    color: #000;
+}
+
+#message p {
+   /* padding: 4px 4px;*/
+    font-size: 14px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+   
